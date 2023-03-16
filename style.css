@@ -1,7 +1,7 @@
 body {
     text-align: center;
     margin: 0;
-    background: black;
+    background: rgba(0, 0, 0, 0);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,7 +10,7 @@ body {
 
 #calculator {
     max-width: 360px;
-    background-color: rgb(117, 6, 202);
+    background-color: rgb(109, 111, 113);
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0,2);
@@ -24,18 +24,18 @@ body {
     margin-bottom: 10px;
     padding: 20px;
     border-radius: 5px;
-    color: aquamarine;
+    color: rgb(30, 255, 0);
     background-color: rgba(13, 27, 42, 0,2);
     border: none;
     box-sizing: border-box;
 }
 
 .operator {
-    color: rgb(0, 68, 255);
+    color: rgb(255, 255, 255);
 }
 
 #ac {
-    color: blue;
+    color: rgb(255, 247, 0);
 }
 
 .equal {
@@ -51,9 +51,9 @@ button {
     border-radius: 5px;
     float: left;
     background-color: rgb(13, 27, 42);
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
     -webkit-box-shadow: -1px 1px 30px -5px rgba(0, 0, 0, 0,2);
-    -moz-box-shadow: -1px 1px 30px -5px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: -1px 1px 30px -5px rgb(143, 58, 58);
     box-shadow: -1px 1px 30px -5px rgba(0, 0, 0, 0.2);
 }
     
@@ -62,5 +62,5 @@ button {
 }
     button:active {
     transform: scale(1.85);
-    box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.19), 0 1.5px 1.5px rgba(0, 0, 0, 6.23);
+    box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.19), 0 1.5px 1.5px rgba(0, 0, 0, 6.23);
     }
