@@ -1,7 +1,7 @@
 body {
     text-align: center;
     margin: 0;
-    background: rgba(0, 0, 0, 0);
+    background: #5f3dc4;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,7 +10,7 @@ body {
 
 #calculator {
     max-width: 360px;
-    background-color: rgb(109, 111, 113);
+    background-color: #0d1b2a;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0,2);
@@ -24,18 +24,18 @@ body {
     margin-bottom: 10px;
     padding: 20px;
     border-radius: 5px;
-    color: rgb(30, 255, 0);
-    background-color: rgba(13, 27, 42, 0,2);
+    color: #ffffff;
+    background-color: rgba(13, 27, 42, 0,3);
     border: none;
     box-sizing: border-box;
 }
 
 .operator {
-    color: rgb(255, 255, 255);
+    color: #219eab;
 }
 
 #ac {
-    color: rgb(255, 247, 0);
+    color: #bf4d5d;
 }
 
 .equal {
@@ -51,16 +51,16 @@ button {
     border-radius: 5px;
     float: left;
     background-color: rgb(13, 27, 42);
-    color: rgb(255, 255, 255);
-    -webkit-box-shadow: -1px 1px 30px -5px rgba(0, 0, 0, 0,2);
-    -moz-box-shadow: -1px 1px 30px -5px rgb(143, 58, 58);
+    color: #e0e1dd;
+    -webkit-box-shadow: -1px 1px 30px -5px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: -1px 1px 30px -5px rgba(0, 0, 0, 0.2);
     box-shadow: -1px 1px 30px -5px rgba(0, 0, 0, 0.2);
 }
     
-    button :hover {
+    button:hover {
     cursor: pointer;
 }
     button:active {
-    transform: scale(1.85);
-    box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.19), 0 1.5px 1.5px rgba(0, 0, 0, 6.23);
+    transform: scale(1.05);
+    box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.19), 0 1.5px 1.5px rgba(0, 0, 0, 0.23);
     }
